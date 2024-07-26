@@ -1,0 +1,7 @@
+networks:
+  default: development
+  development:
+    host: http://127.0.0.1
+    port: 8545
+    gas_limit: 12000000
+    timeout: 120  # increase timeout to 120 seconds
